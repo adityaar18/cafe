@@ -38,23 +38,7 @@ toggler.addEventListener("click", function () {
 });
 
 // slider function
-fadeSlides();
-
-
-function fadeSlides() {
-  var slide = document.getElementsByClassName("fade")[0];
-  var nextSlide = slide.nextElementSibling;
-  
-  if (nextSlide) {
-    nextSlide.classList.add('fade');
-  } else {
-    document.getElementsByClassName('mySlides')[0].classList.add('fade');
-  }
-  slide.classList.remove('fade');
-
-  setTimeout(fadeSlides, 3500);
-}
-/* var slideIndex = 0;
+var slideIndex = 0;
 showSlides();
 
 function showSlides() {
@@ -74,7 +58,6 @@ function showSlides() {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active-dot";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 7000); // Change image every 7 seconds
   }
-*/
-
+}

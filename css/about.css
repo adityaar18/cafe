@@ -167,13 +167,7 @@ img {
 }
 
 .mySlides {
-  opacity: 0;
-  position: absolute;
-  transition: opacity 1000ms ease;
-}
-.mySlides.fade {
-  opacity: 1;
-  z-index: 1;
+  display: none;
 }
 img {
   vertical-align: middle;
@@ -217,14 +211,14 @@ img {
 }
 
 /* Fading animation */
-/*.fade {
+.fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 6.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 6.5s;
 }
-*/
-/*@-webkit-keyframes fade {
+
+@-webkit-keyframes fade {
   from {
     opacity: 0.5;
   }
@@ -241,7 +235,6 @@ img {
     opacity: 1;
   }
 }
-*/
 
 .footer {
   position: relative;

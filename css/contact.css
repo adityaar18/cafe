@@ -119,6 +119,10 @@ li.row i {
   .my-sm {
     margin: 12px 0;
   }
+  iframe{
+    width: 550px;
+    height: 400px;
+  }
 }
 
 @media only screen and (max-width: 992px) {

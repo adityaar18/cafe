@@ -1,3 +1,18 @@
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 :root {
   --primary: #f8be2a;
 }
@@ -119,9 +134,20 @@ li.row i {
   .my-sm {
     margin: 12px 0;
   }
-  iframe{
-    width: 550px;
-    height: 400px;
+
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
   }
 }
 
@@ -145,5 +171,20 @@ li.row i {
     width: 100%;
     position: absolute;
     left: 0;
+  }
+
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
   }
 }
